@@ -1,0 +1,8 @@
+m = float(input('Digite o metro desejado: '))
+print('{}m em quilometros é {}'.format(m, m*0.001))
+print('{}m em hecametros é {}'.format(m, m*0.01))
+print('{}m em decametros é {:.1f}'.format(m, m*0.1))
+print('{}m em metros é {}'.format(m, m))
+print('{}m em decímetros é {:.0f}'.format(m, m*10))
+print('{}m em centímetros é {:.0f}'.format(m, m*100))
+print('{}m em milímetros é {:.0f}'.format(m, m*1000))
