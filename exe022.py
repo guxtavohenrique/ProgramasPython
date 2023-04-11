@@ -1,0 +1,6 @@
+f = str(input('digite uma frase: ')).strip()
+d = f.upper()
+print(d)
+print('Quantas vezes aparece a letra A: {} vezes'.format(d.count('A')))
+print('Qual a posição do primeiro A: {} posição'.format(d.find('A')+1))
+print('Qual a última posição do A: {} posição'.format(d.rfind('A')+1))
