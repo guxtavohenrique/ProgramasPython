@@ -1,12 +1,6 @@
-n = int(input("Verificar número: "))
-mult = 0
-
-for count in range(2, n):
-    if (n % count == 0):
-        print("Multiplo de", count)
-        mult += 1
-
-    if (mult == 0):
-        print("É primo")
-    else:
-        print("Tem", mult, "multiplos acima de 2 e abaixo de", n)
+p = int(input("Primeiro termo: "))
+r = int(input("Razão: "))
+d = p + (10-1) * r
+for c in range(p, d + r, r):
+    print(c, end=' ')
+print("Acabaou")
