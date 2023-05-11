@@ -1,6 +1,6 @@
-n = int(input("Digite um número: "))
-print("-=-" * 5)
-for t in range(0, 11):
-    print("{:2} X {} = {:2}".format(t, n, t*n))
-print("-=-" * 3)
-print("Fim")
+s = 0
+for c in range(1, 7):
+    n = int(input("Digite o {} número: ".format(c)))
+    if n % 2 == 0:
+        s += n
+print("A soma dos par(es) é:", s)

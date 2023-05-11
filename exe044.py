@@ -1,3 +1,6 @@
-for c in range(0, 50, 2):
-    print(c, end=' ')
-print("Fim")
+s = 0
+for c in range(1, 501, 2):
+    if c % 3 == 0:
+        s += c
+print("A soma deles será de {}".format(s))
+
